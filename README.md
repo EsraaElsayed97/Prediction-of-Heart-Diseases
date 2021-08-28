@@ -1,4 +1,4 @@
-﻿***abstract/***
+﻿****abstract/****
 
 -We have data which classified if patients have heart disease or not according to features in it. We will try to use this data to create a model which tries to predict if a patient has this disease or not.
 
@@ -38,7 +38,7 @@ It's clean ( doesn't have any missing values "nan" ), it only has  numerical dat
 
 14-target: Heart disease (0 = no, 1 = yes)
 
-` `***Data Visualization***
+***Data Visualization***
 
 Data visualization is the discipline of trying to understand data by placing it in a visual context so that patterns, trends and correlations that might not otherwise be detected can be exposed.
 
@@ -46,13 +46,13 @@ Data visualization is the discipline of trying to understand data by placing it 
 
 we could either use the bar chart to measure the frequency of each feature with additional comparing between having or not having diseases. 
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.001.png)
+![image](https://user-images.githubusercontent.com/72630461/131226289-620121e5-907c-47c4-9ae3-2f130ba71743.png)
 
 ***Histogram :***
 
 It is the best way to represent the data and to know its distribution .Where Histograms are column-charts, which each column represents a range of the values, and the height of a column corresponds to how many values are in that range.
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.002.png)
+![image](https://user-images.githubusercontent.com/72630461/131226311-d367f0bf-f82f-4b73-ac88-2dd9460a23e1.png)
 
 From the histogram we notice that:
 
@@ -92,15 +92,15 @@ From the histogram we notice that:
 
 -We will not measure the correlation for the categorical variables(ca,cp,sex,exang,fbs,restecg,slope,thal).
 
-`      `![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.003.png)
+![image](https://user-images.githubusercontent.com/72630461/131226329-2fafdadb-6f0e-4b6b-a08b-ce74ad54cfd0.png)
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.004.png)
+![image](https://user-images.githubusercontent.com/72630461/131226344-b46d4dca-3f59-4b28-b192-46ab44a979bb.png)
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.005.png)
+![image](https://user-images.githubusercontent.com/72630461/131226356-8fb7f4de-030c-4602-8ac3-b6b6977d21c9.png)
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.006.png)
+![image](https://user-images.githubusercontent.com/72630461/131226369-c1f02e42-4d21-4f89-ad73-b4825e21f82d.png)
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.007.png)
+![image](https://user-images.githubusercontent.com/72630461/131226376-77aba270-c3b2-43ff-83f8-3b4b57943576.png)
 
 -Scatter plots that consist of all data points forming either a vertical or horizontal line indicate that the linear correlation is undefined. As we saw the following scatter is vertical so it is undefined. We will use corr()method 
 
@@ -118,11 +118,11 @@ As we saw , there is no correlation with target
 
 -then we draw the scatter of different features with each other .
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.008.png)
+![image](https://user-images.githubusercontent.com/72630461/131226211-a73d6a86-9f3f-42f1-a971-981da8e6b471.png)
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.009.png)
+![image](https://user-images.githubusercontent.com/72630461/131226225-17a6f28f-690d-4e39-b89e-e0648c370d0a.png)
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.010.png)
+![image](https://user-images.githubusercontent.com/72630461/131226234-72a46c26-d884-4edc-b606-600fbd8b6713.png)
 
 we notice that the correlation with different features is week or even no correlation . so we will use all features in the dataset.
 
@@ -130,7 +130,7 @@ we notice that the correlation with different features is week or even no correl
 
 I use a line chart in knns classifier to measure which neighbour has the maximum accuracy.
 
-![](Aspose.Words.bd7e84f7-ec8c-430d-b211-d7d5f1028a8f.011.png)
+![image](https://user-images.githubusercontent.com/72630461/131226246-bb9b6bf8-ee54-464c-b597-cb28e7033b47.png)
 
 
 ***Machine learning model, a technical discussion.***
@@ -177,12 +177,9 @@ SVM is a supervised machine learning algorithm which can be used for classificat
 
 ***Advantages :*** you can capture much more complex relationships between your data points without having to perform difficult transformations on your own.
 
-` `***Disadvantages :*** the training time is much longer as it's much more computationally intensive.
+***Disadvantages :*** the training time is much longer as it's much more computationally intensive.
 
 Test Accuracy of SVM Algorithm: 83.61%
-
-
-
 
 ***Conclusion***
 
